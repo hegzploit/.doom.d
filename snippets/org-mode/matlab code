@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: matlab code
+# key: matlab
+# --
+\begin{lstlisting}[style=Matlab-editor]
+$0
+\end{lstlisting}

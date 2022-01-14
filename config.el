@@ -71,3 +71,10 @@
   (setq password-cache-expiry nil))               ; I can trust my desktops ... can't I? (no battery = desktop)
 
 (global-subword-mode 1)                           ; Iterate through CamelCase words
+
+(if (eq initial-window-system 'x)                 ; if started by emacs command or desktop file
+    (toggle-frame-maximized)
+  (toggle-frame-fullscreen))
+
+(setq org-directory "~/Dropbox/Org/")
+
