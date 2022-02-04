@@ -135,3 +135,9 @@
   (map! :map org-mode-map
         "C-c l a y" #'zz/org-download-paste-clipboard
         "C-M-y" #'zz/org-download-paste-clipboard))
+
+
+(require 'org-gcal)
+(setq org-gcal-client-id "yusufthehegazy@gmail.com"
+      org-gcal-client-secret "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"
+      org-gcal-fetch-file-alist '(("yusufthehegazy@gmail.com" .  "~/Org/schedule.org" )))

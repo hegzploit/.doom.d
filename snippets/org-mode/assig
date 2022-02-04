@@ -11,9 +11,8 @@
 #+MACRO: course_code ${3:ECO-666}
 #+MACRO: course_name ${4:Selected Topics in Crocodilation}
 #+MACRO: my_id 2018005
+#+LATEX_HEADER_EXTRA: \usepackage{tcolorbox}
 
-
-%% Variables
 \newcommand{\assistantprofname}{{{{prof_name}}}}
 \newcommand{\coursename}{{{{course_code}}}: {{{course_name}}}}
 \newcommand{\doctitle}{{{{title}}}}

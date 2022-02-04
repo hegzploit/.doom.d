@@ -56,3 +56,4 @@
 (package! mixed-pitch)
 (package! centaur-tabs)
 (package! treemacs-evil)
+(package! org-gcal)

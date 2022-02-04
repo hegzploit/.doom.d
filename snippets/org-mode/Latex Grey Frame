@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Latex Grey Frame
+# uuid: _lgf
+# key: <grey_frame
+# condition: t
+# --
+\begin{tcolorbox}[width=\linewidth, sharp corners=all, colback=white!95!black]
+$0
+\end{tcolorbox}
