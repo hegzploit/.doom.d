@@ -149,3 +149,4 @@
 ;; '(("c" "Simple agenda view"
 ;; ((agenda "")
 ;; (alltodo "")))))
+(setq org-latex-listings t)
