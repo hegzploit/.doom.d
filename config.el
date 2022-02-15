@@ -137,24 +137,6 @@
         "C-M-y" #'zz/org-download-paste-clipboard))
 
 
-;; (use-package org-gcal
-;;         :after org
-;;         :config
-;;         (setq org-gcal-client-id "886048206995-ff078etc3cnqlglunoo6129kj3392euk.apps.googleusercontent.com"
-;;         org-gcal-client-secret "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"
-;;         org-gcal-fetch-file-alist '(("yusufthehegazy@gmail.com" .  "~/Org/cal.org" )))
-;;         (add-hook 'org-agenda-mode-hook 'org-gcal-fetch)
-;;         (add-hook 'org-capture-after-finalize-hook 'org-gcal-fetch))
-
-;; (use-package org-gtasks
-;;         :after org
-;;         :config
-;;         (org-gtasks-register-account :name "Yusuf Hegazy"
-;;                                 :directory "~/Org/Tasks"
-;;                                 :client-id "886048206995-ff078etc3cnqlglunoo6129kj3392euk.apps.googleusercontent.com"
-;;                                 :client-secret "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")
-;; )
-
 ;; (setq org-capture-templates
 ;; '(("a" "Appointment" entry (file  "~/Org/cal.org" )
 ;; "* %?")
