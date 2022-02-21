@@ -123,3 +123,10 @@
 
 (setq org-directory "~/Dropbox/Org/")
 
+
+(setq erc-server "irc.libera.chat"
+      erc-nick "hegz"
+      erc-user-full-name "hegzploit"
+      erc-track-shorten-start 8
+      erc-autojoin-channels-alist '(("irc.libera.chat" "#lobsters"))
+      erc-kill-buffer-on-part t)
